@@ -98,7 +98,8 @@ Throughout the entire training process, we did not experience any irrecoverable 
 
 </div>
 
-**NOTE: The total size of DeepSeek-V3 models on Hugging Face is 685B, which includes 671B of the Main Model weights and 14B of the Multi-Token Prediction (MTP) Module weights.**
+> [!NOTE]
+> The total size of DeepSeek-V3 models on Hugging Face is 685B, which includes 671B of the Main Model weights and 14B of the Multi-Token Prediction (MTP) Module weights.**
 
 To ensure optimal performance and flexibility, we have partnered with open-source communities and hardware vendors to provide multiple ways to run the model locally. For step-by-step guidance, check out Section 6: [How_to Run_Locally](#6-how-to-run-locally).
 
@@ -151,8 +152,9 @@ For developers looking to dive deeper, we recommend exploring [README_WEIGHTS.md
 
 </div>
 
-Note: Best results are shown in bold. Scores with a gap not exceeding 0.3 are considered to be at the same level. DeepSeek-V3 achieves the best performance on most benchmarks, especially on math and code tasks.
-For more evaluation details, please check our paper. 
+> [!NOTE]
+> Best results are shown in bold. Scores with a gap not exceeding 0.3 are considered to be at the same level. DeepSeek-V3 achieves the best performance on most benchmarks, especially on math and code tasks.
+> For more evaluation details, please check our paper. 
 
 #### Context Window
 <p align="center">
@@ -193,9 +195,10 @@ Evaluation results on the ``Needle In A Haystack`` (NIAH) tests.  DeepSeek-V3 pe
 | | C-Eval (EM) | 78.6 | 79.5 | 86.1 | 61.5 | 76.7 | 76.0 | **86.5** |
 | | C-SimpleQA (Correct) | 48.5 | 54.1 | 48.4 | 50.4 | 51.3 | 59.3 | **64.8** |
 
-Note: All models are evaluated in a configuration that limits the output length to 8K. Benchmarks containing fewer than 1000 samples are tested multiple times using varying temperature settings to derive robust final results. DeepSeek-V3 stands as the best-performing open-source model, and also exhibits competitive performance against frontier closed-source models.
-
 </div>
+
+> [!NOTE]
+> All models are evaluated in a configuration that limits the output length to 8K. Benchmarks containing fewer than 1000 samples are tested multiple times using varying temperature settings to derive robust final results. DeepSeek-V3 stands as the best-performing open-source model, and also exhibits competitive performance against frontier closed-source models.
 
 
 ####  Open Ended Generation Evaluation
@@ -213,8 +216,10 @@ Note: All models are evaluated in a configuration that limits the output length 
 | Claude-Sonnet-3.5-1022 | 85.2 | 52.0 |
 | DeepSeek-V3 | **85.5** | **70.0** |
 
-Note: English open-ended conversation evaluations. For AlpacaEval 2.0, we use the length-controlled win rate as the metric.
 </div>
+
+> [!NOTE]
+> English open-ended conversation evaluations. For AlpacaEval 2.0, we use the length-controlled win rate as the metric.
 
 
 ## 5. Chat Website & API Platform
@@ -243,7 +248,8 @@ cd inference
 python fp8_cast_bf16.py --input-fp8-hf-path /path/to/fp8_weights --output-bf16-hf-path /path/to/bf16_weights
 ```
 
-**NOTE: Hugging Face's Transformers has not been directly supported yet.**
+> [!NOTE]
+> Hugging Face's Transformers has not been directly supported yet.**
 
 ### 6.1 Inference with DeepSeek-Infer Demo (example only)
 
