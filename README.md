@@ -235,7 +235,7 @@ DeepSeek-V3 can be deployed locally using the following hardware and open-source
 2. **SGLang**: Fully support the DeepSeek-V3 model in both BF16 and FP8 inference modes, with Multi-Token Prediction [coming soon](https://github.com/sgl-project/sglang/issues/2591).
 3. **LMDeploy**: Enables efficient FP8 and BF16 inference for local and cloud deployment.
 4. **TensorRT-LLM**: Currently supports BF16 inference and INT4/8 quantization, with FP8 support coming soon.
-5. **vLLM**: Support DeekSeek-V3 model with FP8 and BF16 modes for tensor parallelism and pipeline parallelism.
+5. **vLLM**: Support DeepSeek-V3 model with FP8 and BF16 modes for tensor parallelism and pipeline parallelism.
 6. **AMD GPU**: Enables running the DeepSeek-V3 model on AMD GPUs via SGLang in both BF16 and FP8 modes.
 7. **Huawei Ascend NPU**: Supports running DeepSeek-V3 on Huawei Ascend devices.
 
