@@ -253,6 +253,18 @@ python fp8_cast_bf16.py --input-fp8-hf-path /path/to/fp8_weights --output-bf16-h
 
 ### 6.1 Inference with DeepSeek-Infer Demo (example only)
 
+#### System Requirements
+
+> [!NOTE] 
+> Linux with Python 3.10 only. Mac and Windows are not supported.
+
+Dependencies:
+```
+torch==2.4.1
+triton==3.0.0
+transformers==4.46.3
+safetensors==0.4.5
+```
 #### Model Weights & Demo Code Preparation
 
 First, clone our DeepSeek-V3 GitHub repository:
@@ -261,7 +273,7 @@ First, clone our DeepSeek-V3 GitHub repository:
 git clone https://github.com/deepseek-ai/DeepSeek-V3.git
 ```
 
-Navigate to the `inference` folder and install dependencies listed in `requirements.txt`.
+Navigate to the `inference` folder and install dependencies listed in `requirements.txt`. Easiest way is to use a package manager like `conda` or `uv` to create a new virtual environment and install the dependencies.
 
 ```shell
 cd DeepSeek-V3/inference
