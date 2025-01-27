@@ -44,6 +44,17 @@
   <a href="DeepSeek_V3.pdf"><b>Paper Link</b>👁️</a>
 </p>
 
+## Table of Contents
+
+1. [Introduction](## 1. Introduction)
+2. [Model Summary](## 2. Model Summary)
+3. [Model Downloads](## 3. Model Downloads)
+4. [Evaluation Results](## 4. Evaluation Results)
+5. [Chat Website & API Platform](## 5. Chat Website & API Platform)
+6. [How to Run Locally](## 6. How to Run Locally)
+7. [License](## 7. License)
+8. [Citation](## 8. Citation)
+9. [Contact](## 9. Contact)
 
 ## 1. Introduction
 
