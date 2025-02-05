@@ -142,7 +142,7 @@ For developers looking to dive deeper, we recommend exploring [README_WEIGHTS.md
 | | WinoGrande (Acc.) | 5-shot | **86.3** | 82.3 | 85.2 | 84.9 |
 | | RACE-Middle (Acc.) | 5-shot | 73.1 | 68.1 | **74.2** | 67.1 |
 | | RACE-High (Acc.) | 5-shot | 52.6 | 50.3 | **56.8** | 51.3 |
-| | TriviaQA (EM) | 5-shot | 80.0 | 71.9 | **82.7** | **82.9** |
+| | TriviaQA (EM) | 5-shot | 80.0 | 71.9 | 82.7 | **82.9** |
 | | NaturalQuestions (EM) | 5-shot | 38.6 | 33.2 | **41.5** | 40.0 |
 | | AGIEval (Acc.) | 0-shot | 57.5 | 75.8 | 60.6 | **79.6** |
 | Code | HumanEval (Pass@1) | 0-shot | 43.3 | 53.0 | 54.9 | **65.2** |
