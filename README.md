@@ -271,7 +271,7 @@ python fp8_cast_bf16.py --input-fp8-hf-path /path/to/fp8_weights --output-bf16-h
 > Linux with Python 3.10 only. Mac and Windows are not supported.
 
 Dependencies:
-```
+```pip-requirements
 torch==2.4.1
 triton==3.0.0
 transformers==4.46.3
