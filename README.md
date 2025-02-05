@@ -111,7 +111,7 @@ Throughout the entire training process, we did not experience any irrecoverable 
 </div>
 
 > [!NOTE]
-> The total size of DeepSeek-V3 models on Hugging Face is 685B, which includes 671B of the Main Model weights and 14B of the Multi-Token Prediction (MTP) Module weights.**
+> The total size of DeepSeek-V3 models on Hugging Face is 685B, which includes 671B of the Main Model weights and 14B of the Multi-Token Prediction (MTP) Module weights.
 
 To ensure optimal performance and flexibility, we have partnered with open-source communities and hardware vendors to provide multiple ways to run the model locally. For step-by-step guidance, check out Section 6: [How_to Run_Locally](#6-how-to-run-locally).
 
@@ -261,7 +261,7 @@ python fp8_cast_bf16.py --input-fp8-hf-path /path/to/fp8_weights --output-bf16-h
 ```
 
 > [!NOTE]
-> Hugging Face's Transformers has not been directly supported yet.**
+> Hugging Face's Transformers has not been directly supported yet.
 
 ### 6.1 Inference with DeepSeek-Infer Demo (example only)
 
