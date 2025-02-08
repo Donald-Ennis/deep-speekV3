@@ -22,8 +22,6 @@ class ModelArgs:
     Data class for defining model arguments and hyperparameters.
 
     Attributes:
-        max_batch_size (int): Maximum batch size.
-        max_seq_len (int): Maximum sequence length.
         dtype (Literal["bf16", "fp8"]): Data type for computations.
         vocab_size (int): Vocabulary size.
         dim (int): Model dimension.
