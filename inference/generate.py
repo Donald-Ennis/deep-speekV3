@@ -78,6 +78,9 @@ def generate(
     return completion_tokens
 
 
+
+
+
 def main(
     ckpt_path: str,
     config: str,
